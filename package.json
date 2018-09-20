@@ -1,0 +1,33 @@
+{
+  "name": "redux_loop_server_call_slice_generator",
+  "version": "1.0.0",
+  "description": "generator to speedup process to abstract and create redux data slice for server calls with redux loop middleware",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/anilnamde/redux_loop_server_call_slice_generator.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-loop",
+    "react",
+    "state"
+  ],
+  "author": "Anil Namde (anilnamde@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilnamde/redux_loop_server_call_slice_generator/issues"
+  },
+  "homepage": "https://github.com/anilnamde/redux_loop_server_call_slice_generator#readme",
+  "devDependencies": {
+    "rollup": "^0.66.1"
+  },
+  "dependencies": {
+    "redux-loop": "^4.4.1",
+    "reselect": "^3.0.1"
+  }
+}
